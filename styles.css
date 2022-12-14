@@ -1,0 +1,619 @@
+/* FONTS---
+text-
+font-family: alternate-gothic-no-1-d, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+display
+font-family: carlmarx-handwriting-regular, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+  font-family: carlmarx-handwriting-bold, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #54c4c4;
+  min-height: 5vw;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  max-width: 100%;
+  z-index: 1;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 2vw;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+}
+.logo > a > img {
+  width: 30vw;
+  position: absolute;
+  right: 0%;
+}
+
+li {
+  color: whitesmoke;
+  font-family: carlmarx-handwriting-bold, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 5vw;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 40vw;
+}
+#hamburger-icon {
+  display: none;
+}
+#menu-toggle {
+  display: none;
+}
+
+/* end nav - start header */
+
+.header {
+  background-image: url("./assets/pink-pattern.jpg");
+  background-repeat: repeat;
+  max-width: 100%;
+}
+
+.words {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1vw;
+}
+
+.words > h1 {
+  color: whitesmoke;
+  font-family: carlmarx-handwriting-bold, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 15vw;
+}
+
+.button {
+  border: none;
+  border-radius: 5px;
+  color: whitesmoke;
+  text-align: center;
+  text-decoration: none;
+  font-size: 3vw;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: carlmarx-handwriting-regular, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  min-height: 4vw;
+  padding: 1vw;
+}
+
+.button2 {
+  background-color: whitesmoke;
+  color: #f16b96;
+  border: 2px solid #54c4c4;
+}
+
+.button2:hover {
+  background-color: #54c4c4;
+  color: whitesmoke;
+}
+
+.head-squishs-dsk {
+  display: flex;
+  justify-content: space-around;
+}
+.head-squishs-mob {
+  display: none;
+}
+.head-squishs-dsk > img {
+  max-width: 20.8%;
+}
+
+/* end header - start content-features */
+
+.content {
+  background-image: url(./assets/grey-pattern.png);
+  background-repeat: repeat-y;
+  padding-top: 7vw;
+}
+
+#features {
+  display: flex;
+  justify-content: space-around;
+}
+
+#features > .cute > h2 {
+  display: flex;
+  justify-content: space-around;
+  font-family: carlmarx-handwriting-bold, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10vw;
+  color: #54c4c4;
+}
+#features > .squish > h2 {
+  display: flex;
+  justify-content: space-around;
+  font-family: carlmarx-handwriting-bold, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10vw;
+  color: #54c4c4;
+}
+#features > .plush > h2 {
+  display: flex;
+  justify-content: space-around;
+  font-family: carlmarx-handwriting-bold, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10vw;
+  color: #54c4c4;
+}
+
+#features > .cute > h4 {
+  display: flex;
+  justify-content: space-around;
+  font-family: carlmarx-handwriting-bold, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5vw;
+  color: #707070;
+}
+#features > .squish > h4 {
+  display: flex;
+  justify-content: space-around;
+  font-family: carlmarx-handwriting-bold, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5vw;
+  color: #707070;
+}
+#features > .plush > h4 {
+  display: flex;
+  justify-content: space-around;
+  font-family: carlmarx-handwriting-bold, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5vw;
+  color: #707070;
+}
+
+/* end features - start about */
+
+#about {
+  padding-top: 7vw;
+  display: flex;
+  color: whitesmoke;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+#about > h1 {
+  font-family: carlmarx-handwriting-bold, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12vw;
+  transform: rotate(-90deg);
+  color: #707070;
+}
+
+.ab-text > h2 {
+  font-family: carlmarx-handwriting-bold, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 6vw;
+  color: #54c4c4;
+}
+
+.ab-text > p {
+  font-family: alternate-gothic-no-1-d, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3vw;
+  color: #707070;
+}
+.axolotl {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.axolotl > img {
+  width: 25vw;
+  margin-right: 10vw;
+}
+
+/* end about - start contact */
+
+#contact {
+  display: flex;
+  color: whitesmoke;
+  width: 100%;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  position: relative;
+}
+
+#contact > h1 {
+  font-family: carlmarx-handwriting-bold, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12vw;
+  transform: rotate(-90deg);
+  color: #707070;
+}
+
+#contact > .con-form {
+  font-family: carlmarx-handwriting-bold, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3vw;
+  color: #707070;
+}
+
+form {
+  width: 80%;
+}
+
+#fname,
+#lname,
+#message {
+  width: 45vw;
+  min-height: 5vw;
+  border: 2px solid #54c4c4;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #707070;
+  color: whitesmoke;
+  border: 2px solid #54c4c4;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 4vw;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: carlmarx-handwriting-regular, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  min-height: 7vw;
+  padding: 1vw;
+}
+input {
+  display: flex;
+}
+
+input[type="submit"]:hover {
+  background-color: #54c4c4;
+  color: whitesmoke;
+}
+
+.submit {
+  display: flex;
+  font-family: carlmarx-handwriting-bold, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5vw;
+  color: #707070;
+  width: 100%;
+}
+
+.submit > p {
+  padding-right: 6vw;
+}
+.submit > p > a {
+  color: #54c4c4;
+  text-decoration: none;
+}
+
+.dragon {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 15vw;
+}
+.dragon > img {
+  width: 25vw;
+  margin-right: 10vw;
+}
+
+/* end contact - start footer */
+
+#footer-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 20vw;
+}
+
+#footer-menu > a > li {
+  background-color: #54c4c4;
+  min-height: 5vw;
+  max-width: 100vw;
+  z-index: 1;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 2vw;
+}
+
+.footer {
+  background-color: #54c4c4;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.follow {
+  display: flexbox;
+  justify-content: center;
+  color: whitesmoke;
+  font-family: carlmarx-handwriting-bold, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3vw;
+  text-decoration: none;
+  text-align: center;
+}
+
+.icons > a > img {
+  min-width: 5vw;
+}
+.copy {
+  display: flex;
+  justify-content: center;
+}
+.copy > p {
+  color: whitesmoke;
+  font-family: carlmarx-handwriting-bold, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5vw;
+  text-decoration: none;
+}
+/* MOBILE */
+
+@media screen and (max-width: 600px) {
+  nav {
+    min-height: 9vw;
+    padding: 5vw;
+  }
+  #menu {
+    width: 100%;
+    flex-direction: column;
+    display: none;
+    padding-bottom: 3vw;
+  }
+  #hamburger-icon {
+    display: block;
+    font-size: 7vw;
+  }
+  #menu-toggle:checked + #menu {
+    display: flex;
+  }
+  li {
+    color: whitesmoke;
+    font-family: carlmarx-handwriting-bold, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5vw;
+    text-decoration: none;
+  }
+  .logo > a > img {
+    width: 50vw;
+    position: absolute;
+    right: 0%;
+  }
+
+  /* end nav - start header */
+
+  .header {
+    background-image: url("./assets/pink-pattern.jpg");
+  }
+  .words {
+    display: block;
+    justify-content: space-around;
+    padding: 3vw;
+  }
+  .words > h1 {
+    font-size: 17vw;
+  }
+  .button {
+    font-size: 8vw;
+    max-height: 12vw;
+  }
+
+  .head-squishs-dsk {
+    display: none;
+  }
+  .head-squishs-mob {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .hee-haw {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3vw;
+  }
+
+  .head-squishs-mob > .hee-haw > img {
+    transform: rotate(-90deg);
+    width: 50%;
+  }
+  .head-squishs-mob > .moo > img {
+    transform: rotate(90deg);
+    width: 40%;
+  }
+  .head-squishs-mob > .lizzy > img {
+    transform: rotate(90deg);
+    width: 40%;
+  }
+
+  /* end header - start content-fetures */
+
+  #features {
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #features > .cute > h2 {
+    font-size: 18vw;
+  }
+
+  #features > .squish > h2 {
+    font-size: 18vw;
+  }
+
+  #features > .plush > h2 {
+    font-size: 18vw;
+  }
+
+  #features > .cute > h4 {
+    font-size: 9vw;
+  }
+
+  #features > .squish > h4 {
+    font-size: 9vw;
+  }
+
+  #features > .plush > h4 {
+    font-size: 9vw;
+  }
+
+  /* end features - start about */
+
+  #about {
+    display: block;
+    color: whitesmoke;
+    margin-left: 7vw;
+    margin-right: 7vw;
+  }
+  #about > h1 {
+    font-family: carlmarx-handwriting-bold, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18vw;
+    transform: rotate(0deg);
+    color: #707070;
+    margin-left: 1vw;
+    text-align: left;
+    padding: 0%;
+  }
+  .ab-text > h2 {
+    font-family: carlmarx-handwriting-bold, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 9vw;
+    color: #54c4c4;
+  }
+  .ab-text > p {
+    font-family: alternate-gothic-no-1-d, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4vw;
+    color: #707070;
+    margin-right: 10vw;
+  }
+  .mob-axolt {
+    display: flex;
+  }
+  .axolotl {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10vw;
+  }
+  .axolotl > img {
+    width: 25vw;
+  }
+
+  /* end about - start contact */
+
+  #contact {
+    display: block;
+    color: whitesmoke;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    text-align: left;
+  }
+
+  #contact > h1 {
+    font-family: carlmarx-handwriting-bold, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18vw;
+    transform: rotate(0deg);
+    color: #707070;
+    margin-left: 1vw;
+    text-align: left;
+    padding: 0%;
+  }
+
+  #contact > .con-form {
+    font-family: carlmarx-handwriting-bold, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10vw;
+    text-align: left;
+    color: #707070;
+  }
+
+  form {
+    width: 80%;
+  }
+
+  #fname,
+  #lname,
+  #message {
+    min-width: 100%;
+    min-height: 10vw;
+
+    border: 2px solid #54c4c4;
+    border-radius: 5px;
+  }
+
+  input[type="submit"] {
+    background-color: #707070;
+    color: whitesmoke;
+    border: 2px solid #54c4c4;
+    font-size: 5vw;
+    min-height: 9vw;
+    padding: 1vw;
+  }
+
+  .icons > a > img {
+    max-width: 10vw;
+  }
+
+  /* end contact - start footer */
+}
